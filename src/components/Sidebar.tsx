@@ -29,7 +29,7 @@ const Sidebar = () => {
                 className={`fixed top-0 left-0 h-full bg-white w-64 shadow-lg transition-transform duration-300 ${isOpen ? "translate-x-0" : "-translate-x-full"} sidebar`}
             >
                 <nav className="p-4">
-                    <ul className="space-y-2">
+                    <ul className="space-y-2 font-semibold">
                         <li><Link href="/projetos" className="block" onClick={() => setIsOpen(false)}>Projetos</Link></li>
                         <li><Link href="/cursos" className="block" onClick={() => setIsOpen(false)}>Cursos</Link></li>
                         <li><Link href="/mentorias" className="block" onClick={() => setIsOpen(false)}>Mentorias</Link></li>
