@@ -1,4 +1,5 @@
 "use client"
+import Footer from "@/components/Footer";
 import "../globals.css";
 export default function RootLayout({
   children,
@@ -9,6 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

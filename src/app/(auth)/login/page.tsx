@@ -42,8 +42,8 @@ export default function Login() {
                         <p className="text-sm text-gray-600">
                             Não tem uma conta?
                         </p>
-                        <div className="mt-2 inline-block bg-yellow-300 px-4 py-2 rounded-md">
-                            <a href="#" className="text-gray-900 font-semibold hover:underline">
+                        <div className="mt-2 inline-block px-4 py-2 rounded-md">
+                            <a href="#" className="text-yellow-500 font-semibold hover:underline">
                                 Cadastre-se
                             </a>
                         </div>
