@@ -1,6 +1,7 @@
 "use client"
 import "../globals.css";
 import Sidebar from "@/components/Sidebar";
+import 'swiper/css';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -13,10 +14,9 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <div className="flex h-screen">
-          <Sidebar />
           <div className="flex flex-col flex-grow min-h-screen">
             <Navbar />
-            <main className="flex-grow p-4">{children}</main>
+            <main className="flex-grow">{children}</main>
             <Footer />
           </div>
         </div>
