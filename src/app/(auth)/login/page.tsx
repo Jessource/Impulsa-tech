@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Login() {
     return (
@@ -43,9 +44,9 @@ export default function Login() {
                             Não tem uma conta?
                         </p>
                         <div className="mt-2 inline-block px-4 py-2 rounded-md">
-                            <a href="#" className="text-yellow-500 font-semibold hover:underline">
+                            <Link href="/register" className="text-yellow-500 font-semibold hover:underline">
                                 Cadastre-se
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>

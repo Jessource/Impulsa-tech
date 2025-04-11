@@ -4,9 +4,8 @@ import Depoimento from "./Depoimento";
 export default function AboutAndTestimonials() {
     return (
         <section className="bg-neutral-800 text-white py-16 px-4">
-            {/* Sobre nós */}
             <div className="text-center max-w-3xl mx-auto mb-16">
-                <h2 className="text-xl font-bold text-yellow-400 flex items-center justify-center gap-2">
+                <h2 className="text-xl font-bold flex items-center justify-center gap-2">
                     <Image src="/assets/sobrenos.svg" alt="Impulsa Tech" width={30} height={30} />
                     Sobre nós
                 </h2>

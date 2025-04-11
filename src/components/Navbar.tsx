@@ -1,7 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Navbar = () => {
-    // components/Header.js
     return (
         <header className="bg-neutral-800 text-yellow-500 text-base py-2">
             <div className="container mx-auto flex items-center justify-between px-4 py-2">
@@ -12,21 +12,21 @@ const Navbar = () => {
 
                 {/* Navegação */}
                 <nav className="flex items-center space-x-4 text-sm">
-                    <a href="#" className="bg-yellow-500 text-black px-3 py-1 rounded hover:bg-yellow-400 transition">
+                    <Link href={'/'} className="hover:text-yellow-400 transition">
                         Página Inicial
-                    </a>
-                    <a href="#" className="hover:text-yellow-400 transition">
+                    </Link>
+                    <Link href="/mission-and-values" className="hover:text-yellow-400 transition">
                         Missão e Valores
-                    </a>
-                    <a href="#" className="hover:text-yellow-400 transition">
+                    </Link>
+                    <Link href="/platform" className="hover:text-yellow-400 transition">
                         Plataforma
-                    </a>
-                    <a href="#" className="bg-white text-black px-3 py-1 rounded hover:bg-zinc-200 transition">
+                    </Link>
+                    <Link href="/login" className="bg-white text-black px-3 py-1 rounded hover:bg-zinc-200 transition">
                         Entrar
-                    </a>
-                    <a href="#" className="bg-yellow-500 text-black px-3 py-1 rounded hover:bg-yellow-400 transition">
+                    </Link>
+                    <Link href="/register" className="bg-yellow-500 text-black px-3 py-1 rounded hover:bg-yellow-400 transition">
                         Cadastre-se
-                    </a>
+                    </Link>
                 </nav>
             </div>
         </header>

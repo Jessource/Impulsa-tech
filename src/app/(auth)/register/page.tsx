@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Login() {
     return (
@@ -115,9 +116,9 @@ export default function Login() {
                         {/* Link login */}
                         <p className="mt-4 text-center text-sm text-black">
                             Já tem uma conta?{' '}
-                            <a href="#" className="text-black font-medium hover:underline">
+                            <Link href="#" className="text-black font-medium hover:underline">
                                 Faça login
-                            </a>
+                            </Link>
                         </p>
                     </div>
 

@@ -1,6 +1,5 @@
 "use client"
 import "../globals.css";
-import Sidebar from "@/components/Sidebar";
 import 'swiper/css';
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
