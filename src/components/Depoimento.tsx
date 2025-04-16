@@ -37,7 +37,7 @@ export default function Depoimento() {
                     <div className="text-sm p-4 border-[#FFB000] border rounded-lg bg-[#1E1E1E]">
                         <p className="mb-4">
                             “Antes da Impulsa, eu carregava sonhos adormecidos e uma 
-                            voz interior que insistia que 'não era para mim'. Hoje, não apenas trabalho na área que 
+                            voz interior que insistia que `não era para mim`. Hoje, não apenas trabalho na área que 
                             fazia meu coração bater mais forte, mas me reconheço como a profissional capaz que sempre 
                             fui – só precisava de alguém que também acreditasse. A Impulsa não foi apenas uma plataforma,
                             foi o espelho que me mostrou a mulher poderosa que eu nem sabia que existia dentro de mim.”

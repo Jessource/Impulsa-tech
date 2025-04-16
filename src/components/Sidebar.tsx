@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
@@ -6,7 +7,7 @@ const Sidebar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
-        const handleOutsideClick = (event) => {
+        const handleOutsideClick = (event: any) => {
             if (!event.target.closest(".sidebar") && isOpen) {
                 setIsOpen(false);
             }
